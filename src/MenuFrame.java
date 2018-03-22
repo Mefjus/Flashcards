@@ -11,7 +11,8 @@ public class MenuFrame extends JFrame implements ActionListener {
         pack();
         setSize(600,600);
 
-
+        JPanel menuPanel = new MenuPanel();
+        add(menuPanel);
 
     }
 

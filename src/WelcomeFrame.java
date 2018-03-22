@@ -11,8 +11,8 @@ public class WelcomeFrame extends JFrame{
         pack();
         setSize(600,600);
 
-        JPanel welcomePanelpanel = new WelcomePanel();
-        add(welcomePanelpanel);
+        JPanel welcomePanel = new WelcomePanel();
+        add(welcomePanel);
 
     }
 

@@ -3,13 +3,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class MenuPanel extends JPanel {
 
     public MenuPanel(){
         setPreferredSize(new Dimension(400, 400));
 
-        JLabel welcome = new JLabel("Menu", JLabel.CENTER);
-        add(welcome);
+        JLabel menu = new JLabel("Menu", JLabel.CENTER);
+        add(menu);
 
         JButton pierwszaOpcja = new JButton("1.Dodaj zdjęcie oraz pytanie do bazy danych");
         pierwszaOpcja.setSize(100, 20);
